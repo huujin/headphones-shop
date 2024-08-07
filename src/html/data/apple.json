@@ -1,0 +1,37 @@
+[
+    {
+        "img": "AirpodsPro.jpg",
+        "title": "AirPods 2",
+        "price": "400$"
+    },
+
+    {
+        "img": "02.jpg",
+        "title": "AirPods 1",
+        "price": "300$"
+    },
+
+    {
+        "img": "AirpodsPro.jpg",
+        "title": "AirPods Max",
+        "price": "600$"
+    },
+
+    {
+        "img": "02.jpg",
+        "title": "AirPods 3",
+        "price": "300$"
+    },
+
+    {
+        "img": "AirpodsPro.jpg",
+        "title": "AirPods 2",
+        "price": "400$"
+    },
+
+    {
+        "img": "02.jpg",
+        "title": "AirPods 1",
+        "price": "300$"
+    }
+]

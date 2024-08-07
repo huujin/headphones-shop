@@ -1,0 +1,46 @@
+.categories {
+    background-color: #F7DA58;
+	padding: 16px 0;
+	// font-size: 18px;
+}
+.categories__title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1;
+    color: #000;
+    margin-bottom: 38px;
+}
+.categories__list {
+    display: flex;
+	align-items: center;
+	// justify-content: space-between;
+    gap: 30px;
+}
+.categories__item {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.625;
+}
+
+
+.upward {
+    position: fixed;
+    bottom: 400px;
+    right: 40px;
+    width: 70px;
+    height: 70px;
+    background: url(./../../img/up.png);
+    background-size: cover;
+    cursor: pointer;
+
+    visibility: hidden;
+    opacity: 0;
+
+    transition: 0.5s;
+}
+
+.upward.active{
+    bottom: 40px;
+    visibility: visible;
+    opacity: 1;
+}

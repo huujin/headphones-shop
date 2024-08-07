@@ -1,0 +1,27 @@
+.header__nav {
+}
+.nav {
+	background-color: #F7DA58;
+	padding: 16px 0;
+	font-size: 18px;
+}
+
+.nav__row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav__list {
+	display: flex;
+	align-items: center;
+	gap: 40px;
+}
+
+.nav__link {
+	display: flex;
+	align-items: center;
+	color: #141718;
+}
+.active {
+}

@@ -1,0 +1,52 @@
+.katalog {
+    width: 362px;
+    display: grid;
+    // background-color:antiquewhite;
+    gap: 12px;
+    border-radius: 5px;
+
+    &:hover {
+        .katalog__btn {
+            display: block;
+            opacity: 1;
+            transform: translateY(0%);
+        }
+    }
+}
+
+
+.katalog__picture {
+    position: relative;
+    max-width: 262px;
+    height: 250px;
+}
+
+.katalog__btn {
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+    right: 16px;
+
+    transition: all 0.2s ease-in;
+    transform: translateY(50%);
+    opacity: 0;
+    // display: none;
+}
+
+.kalatog__desc {
+    margin: 5px 5px;
+    display: grid;
+    gap: 4px;
+}
+.katalog__title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.625;
+    
+
+}
+.katalog__price {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.5;
+}

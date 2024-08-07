@@ -1,0 +1,27 @@
+<button class="upward" onclick="scrollToTop()"></button>
+<div class="categories">
+    <div class="container">
+        <div class="categories__title">
+            <h2 class="headline-4">Categories</h2>
+        </div>
+        <ul class="categories__list">
+            <li class="categories__item">
+                <button class="btn" id="btn__apple">apple</button>
+            </li>
+            <li class="categories__item">
+                <button class="btn" id="btn__samsung">samsung</button>
+            </li>
+            <li class="categories__item">
+                <button class="btn" id="btn__xiaomi">xiaomi</button>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<script>
+    let btn__scroll = document.querySelector(".upward");
+
+    function scrollToTop(){
+        document.documentElement.scrollTop = 900;
+    }
+</script>
